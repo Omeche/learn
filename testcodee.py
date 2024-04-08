@@ -4,4 +4,6 @@ if response == 'yea' or response == 'yes':
     print('Drink coke')
     print('Drink fanta')
 else:
-    print("Go and play")
+    hungry ==input("are you hungry?")
+    if hungry == 'yes':
+        print("Eat rice")
